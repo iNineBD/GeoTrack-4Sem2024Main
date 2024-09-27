@@ -1,0 +1,6 @@
+[submodule "GeoTrackServer-4Sem2024"]
+	path = GeoTrackServer-4Sem2024
+	url = https://github.com/iNineBD/GeoTrackServer-4Sem2024.git
+[submodule "GeoTrack-4Sem2024"]
+	path = GeoTrack-4Sem2024
+	url = https://github.com/iNineBD/GeoTrack-4Sem2024.git
