@@ -125,7 +125,7 @@
 | SPRINTS | PERIODS | DESCRIPTION |
 |:-------:|:-----:|:---------:|
 | [Sprint 1](https://github.com/iNineBD/GeoTrack-4Sem2024Main/wiki/Sprint-1) | 09/09/2024 to 29/09/2024 | Stopping Point |
-| Sprint 2 | 30/09/2024 to 20/09/2024 | - |
+| [Sprint 2](https://github.com/iNineBD/GeoTrack-4Sem2024Main/wiki/Sprint-2) | 30/09/2024 to 20/09/2024 | - |
 | Sprint 3 | 21/10/2024 to 10/11/2024 | - |
 | Sprint 4 | 11/11/2024 to 01/12/2024 | - |
 
