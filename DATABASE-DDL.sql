@@ -1,6 +1,44 @@
 --------------------------------------------------------
 --  Arquivo criado - sábado-setembro-28-2024   
 --------------------------------------------------------
+
+--------------------------------------------------------
+--  DDL for Table sessao_geometrica
+--------------------------------------------------------
+
+CREATE TABLE ito1.sessao_geometrica (
+    id_sessao        INT NOT NULL PRIMARY KEY,
+    nome             VARCHAR(50),
+    status           NUMBER(1) CHECK ( status IN ( 0, 1 ) ),
+    tipo             VARCHAR(10),
+    longitude_centro NUMBER(17, 15),
+    latitude_centro  NUMBER(17, 15),
+    raio             NUMBER(25, 15)
+);
+
+--------------------------------------------------------
+--  DDL for Sequence seq_id_sessao
+--------------------------------------------------------
+CREATE SEQUENCE ito1.seq_id_sessao START WITH 1 INCREMENT BY 1 NOMAXVALUE NOCYCLE CACHE 10;
+
+--------------------------------------------------------
+--  DDL for Trigger trg_id_sessao
+--------------------------------------------------------
+
+CREATE OR REPLACE TRIGGER ito1.trg_id_sessao BEFORE
+    INSERT ON ito1.sessao_geometrica
+    FOR EACH ROW
+BEGIN
+    IF :new.id_sessao IS NULL THEN
+        SELECT
+            ito1.seq_id_sessao.nextval
+        INTO :new.id_sessao
+        FROM
+            dual;
+
+    END IF;
+END;
+
 --------------------------------------------------------
 --  DDL for Sequence SEQ_IDDISPOSITIVO
 --------------------------------------------------------
