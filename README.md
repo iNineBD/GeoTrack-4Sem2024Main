@@ -123,7 +123,7 @@
 ## ◻️ Sprints
 
 | SPRINTS | PERIODS | KEYWORD | DESCRIPTION |
-|:-------:|:-----:|:---------:|
+|:-------:|:-----:|:---------:|:---------:|
 | [Sprint 1](https://github.com/iNineBD/GeoTrack-4Sem2024Main/wiki/Sprint-1) | 09/09/2024 to 29/09/2024 | Stopping Point | Plotting stopping points on the map |
 | [Sprint 2](https://github.com/iNineBD/GeoTrack-4Sem2024Main/wiki/Sprint-2) | 30/09/2024 to 20/09/2024 | Sessions | Plotting stopping points on the map in geographic sessions |
 | [Sprint 3](https://github.com/iNineBD/GeoTrack-4Sem2024Main/wiki/Sprint-3) | 21/10/2024 to 10/11/2024 | Reports and Login | Customer login and view relevant data reports |
