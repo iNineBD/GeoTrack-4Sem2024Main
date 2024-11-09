@@ -1,13 +1,4 @@
 # Geotrack - Inine - Main Repository 
-
-## 🗺️ Front-end Repository
-  - [GeoTrack Front-end](https://github.com/iNineBD/GeoTrack-4Sem2024)
-
-
-## 🖥️ Back-end Repository
-   - [GeoTrack Back-end](https://github.com/iNineBD/GeoTrackServer-4Sem2024).
-
-<br>
 <p align="center">
     <a href="#team">Team</a> |
     <a href="#context">Context</a> |
